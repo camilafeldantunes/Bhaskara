@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("Digite o valor de a"));
+        let b = parseInt(prompt("Digite o valor de b"));
+        let c = parseInt(prompt("Digite o valor de c"));
+
+        let delta = (b**2) -(4*a*c);
+        let q = Math.sqrt(delta);
+
+        let x1 = (-b + q) /(2*a);
+        let x2 = (-b - q) /(2*a);
+
+
+        console.log(x1);
+        console.log(x2);
+
+        document.write(`O resultado do x' é:  ${x1} <br><br>`);
+        document.write(`O resultado do x'' é:  ${x2} <br><br>`);
+    </script>
+    
+</body>
+</html>
